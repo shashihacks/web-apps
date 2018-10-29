@@ -1,0 +1,186 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*<!-- ************  navigation  ***********-->*/
+
+.nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    width: 60%;
+    float: right;
+    margin-top: -4.5%
+}
+
+.brand_logo {
+    width: 38%;
+}
+
+.brand_logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav {
+    background-color: #444;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    transition: .3s background-color;
+}
+
+.nav a:hover {
+    background-color: #005f5e;
+}
+
+.nav a.active {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+}
+
+.nav li {
+    width: 16%;
+    border-bottom: none;
+    line-height: 45px;
+    font-size: 1.2em;
+}
+
+
+/* Option 1 - Display Inline */
+
+.nav li {
+    display: inline-block;
+}
+
+
+/*Main content*/
+
+
+/*Buttons*/
+
+.button {
+    display: inline-block;
+    padding: 8px 12px;
+    color: #000;
+    position: relative;
+    text-decoration: none;
+    background-color: #1ABFd2;
+    -webkit-border-radius: 8px;
+    border-radius: 7px;
+    -webkit-box-shadow: 0 1px 3px 0 #565656;
+    box-shadow: 0 1px 2px 0 #565766;
+    margin: 2%;
+}
+
+.button:hover {
+    background-color: #1397B5;
+    color: white;
+}
+
+.main_content {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.lorem p {
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 2%;
+}
+
+
+/*<!-- ************  Floor plan  ***********-->*/
+
+.floor_plan_map {
+    text-align: center;
+}
+
+
+/*<!-- ************  Css cards for images  ***********-->*/
+
+.clear-right {
+    clear: both;
+}
+
+
+/*cards all*/
+
+.card {
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.2);
+    transition: 0.25s;
+    width: 30%;
+    padding: 8px;
+    border-radius: 20px;
+    float: left;
+    margin: 2% 2% 2% 0%;
+    font-size: 110%
+}
+
+.card:hover {
+    box-shadow: 4px 18px 26px 14px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+.card .container {
+    text-align: center;
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+h4 {
+    color: deeppink
+}
+
+.list_cards img {
+    max-width: 100%;
+    height: auto
+}
+
+.card_description h2 {
+    color: firebrick
+}
+
+.card_description p {
+    font-size: 18px;
+    line-height: 1.6
+}
+/*<!-- ************  table for open hours  ***********-->*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+.note{
+    color: red;
+    font-size: 120%;
+    margin-bottom: 8%;
+}
+tr:nth-child(even){background-color: #f2f2f2}
+tr:last-child{
+    color: red;
+    font-weight: bold;
+}
+
+/*<!-- ************  Footer adjustments  ***********-->*/
+
+.footer {
+    background-color: aliceblue;
+    margin: 1%;
+    margin-top: 4%;
+}

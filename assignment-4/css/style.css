@@ -1,0 +1,279 @@
+* {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+    clear: none;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.03);
+}
+
+.row {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: #def0d8;
+    display: flex;
+}
+
+.brand-logo {
+    flex: 1.15;
+    margin-right: 20px;
+}
+
+.nav-menu {
+    flex: 1.85;
+    padding: 10px;
+    margin-left: 25px;
+}
+
+.brand-logo img {
+    width: 100%;
+    height: auto;
+    display: inline;
+    text-align: left;
+}
+
+
+/*-------------Header and Navigation classes------------*/
+
+
+/*-------------Navigation Classes------------*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border: 1px solid #e7e7e7;
+}
+
+.unordered-list {
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    text-align: center;
+    width: 120px;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 120%;
+    display: block;
+    color: #555;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in;
+}
+
+ul li:first-child:hover {
+    font-size: 0;
+}
+
+.home:hover:after {
+    content: 'Home';
+    font-size: 19px;
+}
+
+li a.active {
+    color: white;
+    background-color: #337ab7;
+    border-radius: 12px;
+}
+
+
+/*Main section */
+
+.brand-message h1 {
+    padding: 6px;
+    color: crimson;
+}
+
+.brand-message .message {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 6px;
+}
+
+.shop-description {
+    width: 95%;
+    margin: 2px auto;
+    line-height: 1.5;
+    font-size: 17px;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+/*//Map section*/
+
+.map-section {
+    margin: 20px;
+}
+
+.floor_plan {
+    text-align: center;
+    border-color: chocolate;
+    color: #ed6e55;
+    font-size: 20px;
+}
+
+
+/*main Body section cards placement*/
+
+.cards-view {
+    margin-top: 40px;
+}
+
+.item-name h1 {
+    color: darkred;
+    margin: 20px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    float: left;
+    padding: 1%;
+    margin: 0.6%;
+    transition: transform 0.3s;
+}
+
+.container:hover {
+    ;
+    transform: scale(1.1);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.5)
+}
+
+.container img {
+    border-radius: 20px;
+}
+
+.container img:hover {
+    /*    transition: border-radius 0.3s;*/
+}
+
+.container .content {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    /* Black background with transparency */
+    color: #f1f1f1;
+    width: 88%;
+    padding: 10px;
+}
+
+.content h1 {
+    font-size: 26px;
+}
+
+
+/*//Singla eimage css*/
+
+.single-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 80%;
+    margin: 60px auto;
+    height: 60%;
+    overflow-x: hidden;
+}
+
+h2 {
+    text-align: center;
+}
+
+.single-card img {
+    float: left;
+    padding: 10px;
+    border: 2px solid grey;
+    margin-right: 20px;
+    border-radius: 10px;
+    max-width: 100%;
+}
+
+.single-card-description {
+    line-height: 1.6;
+    text-align: justify;
+    font-size: 18px;
+    letter-spacing: 0.01px;
+    padding: 6px;
+}
+
+
+/*Table open hour*/
+
+.close-info {
+    margin: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    background-color: chocolate;
+    color: white;
+}
+
+th,
+td {
+    padding: 7px;
+    text-align: center;
+    border-bottom: 1px solid #dde;
+}
+
+
+/*Css button*/
+
+.openhours {
+    text-align: center;
+    margin: 35%;
+}
+
+.btn-info {}
+
+.btn {
+    width: 30%;
+    background-color: #5bc0de;
+    border-color: #46b8da;
+    display: inline-block;
+    padding: 10px 16px;
+    margin-bottom: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: center;
+    white-space: nowrap;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    border: 1px solid transparent;
+    border-radius: 12px;
+    transition: background-color 0.4s ease-out;
+}
+
+.btn:hover {
+    background-color: #555;
+    color: white;
+}
+
+
+/*/  Footer section*/
+
+.aligne-bottom {
+    clear: both;
+}
+
+.footer-section {
+    margin-top: 40px;
+    background-color: aliceblue;
+}

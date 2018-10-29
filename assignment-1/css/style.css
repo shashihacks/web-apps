@@ -1,0 +1,270 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    float: none;
+    
+}
+
+
+.main,
+.footer_text {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.indigo {
+    background-color: #3f51b5 !important;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 2px 4px #f0f0f0;
+}
+
+
+/*Button for business hours*/
+
+
+.button-openinghours {
+    display: inline-block;
+    padding: 10px 14px;
+    margin-bottom: 0;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 1.23;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6db4;
+    cursor: pointer;
+
+    border: 1px solid transparent;
+    border-radius: 6px;
+    margin: 1% 1% 2% 1%;
+}
+.info-text{
+    font-size: 105%;
+    padding: 6px;
+}
+nav .nav-wrapper {
+    position: relative;
+}
+
+nav {
+    color: white;
+}
+
+.logo img {
+    max-width: 25%;
+    background-color: #3f51b0;
+    height: auto;
+    box-shadow: 2px 12px #3f51b5;
+    padding: 8px;
+}
+
+.right {
+    margin-top: 2%;
+}
+
+ul {
+    display: block;
+    float: right
+}
+
+li {
+    display: inline;
+    padding: 4px;
+    font-size: 130%;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+.col {
+    width: 100%;
+}
+
+.logo {
+    width: 20%;
+}
+
+.link-3 {
+    transition: 0.4s;
+    text-decoration: none;
+    padding: 0 10px;
+}
+
+.link-3:hover {
+    background-color: #555;
+    color: #EEA200;
+    padding: 10px 10px;
+}
+
+
+/*Content*/
+
+.content {
+    width: 100%;
+}
+
+#heading {
+    padding: 8px;
+    color: red;
+}
+
+.dummy_text_1,.about_us,
+.contact,
+.dummy_text_2,.image_description_detail {
+    width: 44%;
+    float: left;
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    line-height: 1.4em;
+    font-size: 120%;
+    text-align: justify;
+    padding: 4px;
+    margin: 1px;
+}
+
+.dummy_text_1 {
+    margin-right: 2%;
+}
+
+.dummy_text_2 {
+    margin-left: 2%;
+}
+
+.clearfix {
+    clear: both;
+}
+
+#floor_plan {
+    font-size: 200%;
+    color: #bd081c;
+}
+
+.map_content {
+    text-align: center;
+    padding: 2%;
+}
+
+.map_content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.footer_text {
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    line-height: 1.1em;
+    text-align: justify;
+    padding: 8px;
+    margin-left: 2%;
+ 
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 8px;
+    margin-top: 5%;
+  
+}
+
+
+/*Image cards*/
+
+.greeting{
+    font-size: 200%;
+    padding: 8px;
+    color: orangered;
+}
+section{
+    margin: 2%;
+}
+.card{
+      position: relative;
+ float: left;
+  max-width: 300px;
+    max-width: 30%;
+    padding: 3.2% 3.2% 3.2% 0%;
+      
+}
+.card img,.image_src_description{
+      box-shadow: 0 10px 16px 0 rgba(0,0,0,0.2),0 6px 8px 0 rgba(0,0,0,0.19);
+    max-width: 100%;
+    height: auto;
+    border-radius: 24px;
+}
+.image_src{
+display: block;
+  width: 100%;
+  height: auto;
+}
+.image_title{
+ position: absolute; 
+  bottom: 12%; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 80%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+    border-radius: 10px;
+}
+.card:hover .image_title {
+  opacity: 1;
+}
+
+
+.image_name h1{
+    color: coral;
+}
+
+
+/*//Descriptive image cards*/
+.main_desc{
+    margin: 3%;
+}
+.image_src_description{
+    float: left;
+    margin-left: 4%;
+    margin-top: -4%
+
+}
+
+.image_description_detail{
+    margin: 2% 2%  2% 0%;
+}
+
+/*Business hours table*/
+table {
+    margin-top: 4%;
+    margin-bottom: 20%;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+
+
+
+
+
+
+
+
+
+
+

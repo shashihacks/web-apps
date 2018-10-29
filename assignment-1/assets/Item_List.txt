@@ -1,0 +1,28 @@
+Playing Cards
+-------------
+CD1 - Bicycle
+CD2 - Nomad
+CD3 - Sentinels
+CD4 - Tycoon
+CD5 - Artisans
+CD6 - Union
+CD7 - Steam Punk
+
+Greeting Cards
+--------------
+GC1 - Birthday
+GC2 - Flower
+GC3 - Magic Boxes
+GC4 - Valentine
+GC5 - Full Moon
+GC6 - Christmas
+
+Postcards
+---------
+PC1 - Malaysia
+PC2 - Hong Kong
+PC3 - Singapore
+PC4 - Sydney
+PC5 - Rockhampton
+PC6 - Brisbane
+PC7 - Melbourne
